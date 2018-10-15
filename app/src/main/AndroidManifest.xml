@@ -26,7 +26,11 @@
             android:label="@string/title_activity_alarm_login" />
         <activity
             android:name=".Settings"
-            android:label="@string/title_activity_settings"></activity>
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".RandomTesting"
+            android:label="@string/title_activity_random_testing"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

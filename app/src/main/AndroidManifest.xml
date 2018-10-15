@@ -23,7 +23,10 @@
         </activity>
         <activity
             android:name=".AlarmLogin"
-            android:label="@string/title_activity_alarm_login"></activity>
+            android:label="@string/title_activity_alarm_login" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"></activity>
     </application>
 
 </manifest>

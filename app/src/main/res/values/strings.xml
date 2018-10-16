@@ -88,4 +88,6 @@
     <string name="pref_title_vibrate">Vibrate</string>
     <string name="title_activity_signup">Sign in</string>
     <string name="title_activity_random_testing">RandomTesting</string>
+    <string name="title_activity_testing">Testing</string>
+    <string name="title_activity_sign_up">SignUp</string>
 </resources>

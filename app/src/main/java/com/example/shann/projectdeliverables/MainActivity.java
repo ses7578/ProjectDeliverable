@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity
 
     public void openActivity3()
     {
-        Intent intent = new Intent(this, Settings.class);
+        Intent intent = new Intent(this, SignUp.class);
         startActivity(intent);
     }
 }

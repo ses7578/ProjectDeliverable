@@ -41,7 +41,7 @@ public class SignUp extends AppCompatActivity
 
     public void openActivity3()
     {
-        Intent intent = new Intent(this, RandomTesting.class);
+        Intent intent = new Intent(this, ClockFunction.class);
         startActivity(intent);
     }
 

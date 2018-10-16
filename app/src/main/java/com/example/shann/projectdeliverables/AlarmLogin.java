@@ -192,7 +192,7 @@ public class AlarmLogin extends AppCompatActivity implements LoaderCallbacks<Cur
             showProgress(true);
             mAuthTask = new UserLoginTask(email, password);
             mAuthTask.execute((Void) null);
-            Intent intent = new Intent(this, RandomTesting.class);
+            Intent intent = new Intent(this, ClockFunction.class);
             startActivity(intent);
         }
     }

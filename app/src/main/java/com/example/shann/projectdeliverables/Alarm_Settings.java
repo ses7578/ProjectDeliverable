@@ -8,6 +8,6 @@ public class Alarm_Settings extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_alarm__settings);
+        setContentView(R.layout.activity_alarm_settings);
     }
 }

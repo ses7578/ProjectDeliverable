@@ -21,4 +21,14 @@
         android:checked="false"
         android:onClick="OnToggleClicked" />
 
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:text="@string/AlarmReceiver"
+        android:visibility="visible"
+        tools:text="Alarm Settings" />
+
 </LinearLayout>

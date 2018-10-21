@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TimePicker;
 import android.widget.Toast;
 import android.widget.ToggleButton;
@@ -17,6 +18,7 @@ public class ClockFunction extends AppCompatActivity
     TimePicker alarmTimePicker;
     PendingIntent pendingIntent;
     AlarmManager alarmManager;
+    private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -25,6 +27,15 @@ public class ClockFunction extends AppCompatActivity
         setContentView(R.layout.activity_alarm_reciever);
         alarmTimePicker = (TimePicker) findViewById(R.id.timePicker);
         alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+        button = (Button) findViewById(R.id.button);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                openActivity2();
+            }
+        });
     }
     public void OnToggleClicked(View view)
     {
@@ -54,4 +65,12 @@ public class ClockFunction extends AppCompatActivity
             Toast.makeText(this, "ALARM OFF", Toast.LENGTH_SHORT).show();
         }
     }
+
+    public void openActivity2 () {
+
+
+        Intent intent = new Intent(this, Alarm_Settings.class);
+        startActivity(intent);
+    }
+
 }

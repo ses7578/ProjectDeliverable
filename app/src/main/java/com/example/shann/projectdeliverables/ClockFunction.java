@@ -9,35 +9,18 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TimePicker;
 
-public class ClockFunction extends AppCompatActivity
-{
+public class ClockFunction extends AppCompatActivity {
     TimePicker alarmTimePicker;
     AlarmManager alarmManager;
     private Button button;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alarm_reciever);
         alarmTimePicker = (TimePicker) findViewById(R.id.timePicker);
         alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
         button = (Button) findViewById(R.id.button);
 
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                openActivity2();
-            }
-        });
     }
-
-    public void openActivity2 () {
-
-
-        Intent intent = new Intent(this, Alarm_Settings.class);
-        startActivity(intent);
-    }
-
 }

@@ -39,7 +39,6 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ClockFunction"></activity>
 
-        <activity android:name=".Alarm_Settings"></activity>
     </application>
 
 </manifest>

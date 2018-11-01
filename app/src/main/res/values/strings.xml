@@ -90,4 +90,17 @@
     <string name="title_activity_random_testing">RandomTesting</string>
     <string name="title_activity_testing">Testing</string>
     <string name="title_activity_sign_up">SignUp</string>
+
+
+    <!-- Strings related to profile layout -->
+    <string name="personal_profile">PersonalProfile</string>
+    <string name="name_profile">Name</string>
+    <string name="number_profile">Phone number</string>
+    <string name="email_profile">Email</string>
+    <string name="return_to_previous_profile">Finish</string>
+
+
+
+
+
 </resources>
